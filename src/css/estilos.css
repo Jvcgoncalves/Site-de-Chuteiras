@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* cabeçalho */
+header {
+    background-color: #33ff00;
+    padding: 20px;
+    border-bottom: 2px solid #0a3100;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    color: #fff;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.titulo {
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+}
+
+.login {
+    display: flex;
+    text-decoration: none;
+    background-color: #33ff00;
+    width: 80px;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 25px;
+    color: #000000;
+    font-weight: 600;
+    border: 2px solid #fff;
+}
+
+.login:hover {
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+/* conteúdo */
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 40px;
+}
+
+.container-products {
+    max-width: 1280;
+    margin: 0 auto;
+    margin: 1% 1%;
+    padding: 25px;
+}
+
+.itens {
+    margin-left: 20px;
+    display: inline-block;
+    width: 31%;
+}
+
+.img {
+    height: 250px;
+    width: 70%;
+    margin-bottom: 20px;
+    background-position: center;
+    margin-top: 20px;
+}
+
+h2 {
+    border-left: 5px solid #33ff00;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.itens p {
+    font-size: 16px;
+    padding-right: 15px;
+    text-align: left;
+    margin: 5px;
+}
+
+.btn {
+    display: flex;
+    text-decoration: none;
+    background-color: #33ff00;
+    width: 70%;
+    border-radius: 50px;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    margin: 5px 2px;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+/* rodapé */
+footer {
+    background-color: #33ff00;
+    padding: 30px;
+    border-top: 2px solid #0a3100;
+    color: #000000;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape .logo-rodape {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.rodape .marca-dagua {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ctt {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
